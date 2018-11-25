@@ -1,0 +1,23 @@
+[user]
+	name = Danny Amey
+	useConfigOnly = true
+[color]
+	ui = true
+[alias]
+	co = checkout
+	st = status -sb
+	l = log --decorate --name-status
+	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+	d = diff
+	ds = diff --staged
+	sha = "!git rev-parse HEAD"
+	wtf = branch -vv
+	whereis = branch -a --contains
+[branch]
+	autosetuprebase = always
+[push]
+	default = tracking
+[credential]
+	helper = osxkeychain
+[commit]
+	gpgsign = true

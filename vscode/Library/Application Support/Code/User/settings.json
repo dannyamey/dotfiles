@@ -1,0 +1,15 @@
+{
+    "window.zoomLevel": 0,
+    "editor.rulers": [
+        80
+    ],
+    "workbench.colorTheme": "Visual Studio Dark",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true,
+        "suppressWelcomeNotice": true
+    },
+    "gitlens.keymap": "alternate",
+    "go.buildOnSave": "package",
+    "editor.minimap.enabled": false,
+}
+

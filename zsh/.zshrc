@@ -16,3 +16,6 @@ autoload -Uz compinit
 compinit
 
 [[ -d /opt/homebrew ]] && path=('/opt/homebrew/bin' $path)
+
+SSH_AUTH_SOCK=$HOME/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
+[[ -d $SSH_AUTH_SOCK ]] && export SSH_AUTH_SOCK=$SSH_AUTH_SOCK

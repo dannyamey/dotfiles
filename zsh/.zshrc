@@ -14,3 +14,5 @@ setopt CORRECT_ALL
 
 autoload -Uz compinit
 compinit
+
+[[ -d /opt/homebrew ]] && path=('/opt/homebrew/bin' $path)
